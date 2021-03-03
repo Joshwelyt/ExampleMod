@@ -1,0 +1,11 @@
+type: ParticleWeather
+color: a2a2a2
+particleRegion: particle
+sizeMax: 18
+sizeMin: 2
+density: 3000
+status: burning
+useWindVector: true
+drawNoise: true
+opacityMultiplier: 1.75
+force: 1.5
