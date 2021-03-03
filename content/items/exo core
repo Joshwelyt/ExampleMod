@@ -1,0 +1,7 @@
+name: Exo core
+description: A core that is required to make higher tiers of units.
+hardness: 9
+cost: 6
+explosiveness: 0.0
+color: "2ea756" 
+research: copper
