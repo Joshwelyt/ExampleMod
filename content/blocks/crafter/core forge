@@ -1,0 +1,33 @@
+type: GenericCrafter
+localizedName: Core Forge
+description: creates cores. 
+itemCapacity: 50
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 150
+craftEffect: pulverizeRedder
+updateEffect: pulverizeRed
+consumes: {
+  power: 12
+  items: {
+    items: [
+      copper/20
+      titanium/40
+      pyratite/20
+    ]
+  }
+}
+requirements: [
+  thorium/20
+  titanium/40
+  copper/50
+  lead/30
+]
+drawer: drawWeave
+category: crafting
+research: phase-weaver
+ambientSound: message
+ambientSoundVolume: 0.5
+outputItem: exo-core/1
