@@ -13,9 +13,8 @@ consumes: {
   power: 12
   items: {
     items: [
-      copper/20
       titanium/40
-      pyratite/20
+      surge-alloy/5
     ]
   }
 }
@@ -30,4 +29,4 @@ category: crafting
 research: phase-weaver
 ambientSound: message
 ambientSoundVolume: 0.5
-outputItem: exo-core/1
+outputItem: electra-core/1
