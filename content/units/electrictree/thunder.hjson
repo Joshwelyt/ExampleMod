@@ -45,15 +45,14 @@ research: {
     [
         {item: copper, amount: 2600},
         {item: silicon, amount: 2000},
-        {item: graphite, amount: 1000}
+        {item: graphite, amount: 1000},
+        {item: electra-core, amount: 5}
     ]
 }
 requirements: {
-	block: additive-reconstructor
-	time: 3200
+   block: additve-reconstructor
+   time: 240
         requirements: [
-		silicon/70
-		titanium/40
-		lead/100
+            electra
         ]
 }
