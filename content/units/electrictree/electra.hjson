@@ -43,6 +43,6 @@ requirements: {
         requirements: [
 		silicon/30
 		titanium/20
-		electrum/15
+		lead/30
         ]
 }
