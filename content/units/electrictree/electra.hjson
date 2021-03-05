@@ -44,5 +44,6 @@ requirements: {
 		silicon/30
 		titanium/20
 		lead/30
+                electra-core/1
         ]
 }
