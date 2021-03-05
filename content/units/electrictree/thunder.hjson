@@ -1,7 +1,7 @@
 type: mech
 name: thunder
 description: t2 electric tree.
-speed: 1.75
+speed: 0.75
 accel: 0.50
 drag: 0.4
 flying: false
@@ -10,35 +10,28 @@ armor: 2
 engineOffset: 5.5
 range: 80
 hitSize: 10
-weapons: [
-{
-	name: thunder-blaster
-	 reload: 15
-	top: false
-	mirror: true
-	x: 7
-	y: -1
-	shootY: 2.2
-	recoil: 1.5
-	shake: 2
-	rotate: false
-	shots: 3
-        shootCone: 25
-   	bullet: {
-   		type: lightningBulletType
-        	status: shocked
-        	statusDuration: 60
-        	buildingDamageMultiplier: 0.90,
-		lightningColor: fff8e8
-		lightningCone: 20
-		damage: 15
-		lightningLength: 10
-		collidesGround: true
-		collidesAir: true
-	}
-} 
-	]
-
+	    weapons: [
+	   {
+  name: thunder-blaster
+    shootCone: 15
+    mirror: true
+    alternate: true
+    x: 7
+    y: -1
+    reload: 5
+    recoil: 0.5,
+    shootSound: sap,
+    bullet: {
+    type: LaserBoltBulletType
+    shootEffec: shootHealYellow
+    damage: 10,
+    speed: 6,
+    frontColor: a9df8ff
+    backColor": F3E979FF
+    lifetime: 35
+    }
+  }
+] 
 research: {
     parent: electra
     requirements:
