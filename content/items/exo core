@@ -1,7 +1,7 @@
-name: Exo core
-description: A core that is required to make higher tiers of units and turrets.
+name: Electra core
+description: A core that is required to make modded electric turrets and units.
 hardness: 9
 cost: 6
 explosiveness: 0.0
-color: "2ea756" 
-research: copper
+color: "f3e979" 
+research: surge-alloy
