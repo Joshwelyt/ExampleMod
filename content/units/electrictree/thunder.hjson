@@ -49,7 +49,7 @@ research: {
     ]
 }
 requirements: {
-	block: additive-reconstructure
+	block: additive-reconstructor
 	time: 3200
         requirements: [
 		silicon/70
