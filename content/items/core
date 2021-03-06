@@ -1,7 +1,0 @@
-name: core
-description: A core that is required to make modded turrets and units.
-hardness: 9
-cost: 6
-explosiveness: 0.0
-color: "f3e979" 
-research: surge-alloy
