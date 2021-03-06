@@ -43,7 +43,7 @@ research: {
     ]
 }
 requirements: {
-   block: examplereconstructor
+   block: additive-reconstructor
    time: 3000
         unit: [
          electra
