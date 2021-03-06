@@ -42,6 +42,9 @@ research: {
     ]
 }
 requirements: {
-   block: additive-reconstructor
+   block: additve-reconstructor
    time: 3500
+        requirements: [
+            electra
+        ]
 }
