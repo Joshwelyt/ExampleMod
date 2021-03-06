@@ -20,7 +20,6 @@ upgrades: [
   [electra, thunder]
   [chaos-arranity-t1-dalish, chaos-arranity-t2-marginator]
 ]
-//example of reconstructor with unit in it from other mod
 requirements: [
   lead/3500
   silicon/2500
