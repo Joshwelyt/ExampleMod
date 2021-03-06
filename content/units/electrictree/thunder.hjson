@@ -18,12 +18,12 @@ hitSize: 10
     alternate: true
     x: 7
     y: -1
-    reload: 5
+    reload: 10
     recoil: 0.5
     bullet: {
     type: laserBulletType
     damage: 10
-    length: 10
+    length: 30
     width: 10
     pierce: true
     shootSound: none
