@@ -1,0 +1,29 @@
+type: Reconstructor
+name: family reconstructor
+description: Upgrades inputted units to their second tier.
+size: 3
+health: 550
+constructTime: 3500
+liquidCapacity: 60
+consumes: {
+  power: 4.8
+    items: {
+      items: [
+        silicon/30
+        titanium/70
+        surge-alloy/10
+      ]
+    }
+  }
+}
+upgrades: [
+  [electra, thunder]
+]
+requirements: [
+  lead/3500
+  silicon/2500
+  thorium/2250
+  surge-alloy/1000
+]
+category: units
+research: additive-reconstructor
