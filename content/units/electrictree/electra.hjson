@@ -36,6 +36,12 @@ weapons: [
 	]
 research: {
 	parent: pulsar
+        requirements:
+    [
+        {item: copper, amount: 3000},
+        {item: silicon, amount: 2300},
+        {item: graphite, amount: 1500},
+    ]
 }
 requirements: {
 	block: ground-factory
