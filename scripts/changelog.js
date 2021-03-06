@@ -5,4 +5,6 @@ testDialog.addCloseButton();
 testDialog.cont.add("test
 Test");
 //Show dialog
-testDialog.show();
+testDialog.show(firstRun);
+//shows upon first startup eg every time you open game
+var dontShowAgain = true;
