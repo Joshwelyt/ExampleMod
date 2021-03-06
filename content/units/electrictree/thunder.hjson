@@ -39,7 +39,6 @@ research: {
         {item: copper, amount: 2600},
         {item: silicon, amount: 2000},
         {item: graphite, amount: 1000},
-        {item: electra-core, amount: 5}
     ]
 }
 requirements: {
