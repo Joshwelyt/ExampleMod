@@ -44,6 +44,5 @@ requirements: {
 		silicon/30
 		titanium/20
 		lead/30
-                core/1
         ]
 }
