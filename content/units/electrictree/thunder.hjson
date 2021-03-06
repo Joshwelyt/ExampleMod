@@ -19,13 +19,14 @@ hitSize: 10
     x: 7
     y: -1
     reload: 5
-    recoil: 0.5,
-    shootSound: sap,
+    recoil: 0.5
     bullet: {
-    bullet: lancerLaser
-    shootEffec: shootHealYellow
+    type: laserBulletType
     damage: 10
-    speed: 6
+    length: 10
+    width: 10
+    pierce: true
+    shootSound: none
     frontColor: a9df8ff
     backColor": F3E979FF
     lifetime: 35
