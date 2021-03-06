@@ -17,7 +17,6 @@ consumes: {
   }
 upgrades: [
   [electra, thunder]
-  [chaos-arranity-t1-dalish, chaos-arranity-t2-marginator]
 ]
 requirements: [
   lead/3500
