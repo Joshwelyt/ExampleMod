@@ -42,3 +42,10 @@ research: {
         {item: graphite, amount: 1000},
     ]
 }
+requirements: {
+   block: examplereconstructor
+   time: 3000
+        unit: [
+         electra
+    ] 
+}
