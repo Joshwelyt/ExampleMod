@@ -1,0 +1,12 @@
+localizedName: "Core: deceive"
+description: decieves.
+type: CoreBlock
+unitType: gamma
+health: 266755300
+unitCapModifier: 655
+itemCapacity: 125400
+size: 1
+category: effect
+requirements: [
+]
+research: core-nucleus
