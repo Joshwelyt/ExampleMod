@@ -35,7 +35,7 @@ weapons: [
       hitEffect: none
       frontColor: ffffff
       backColor: 98ffa9
-      trailColor: 98ffa9
+      trailColor: fffac6
       weaveMag: 4
       weaveScale: 8
     }
@@ -44,23 +44,23 @@ weapons: [
 abilities: [
 {
     type: ForceFieldAbility
-    radius: 15
-    regen: 10
-    max: 10
+    radius: 16
+    regen: 0
+    max: 0
+    cooldown: 150
+  }
+  {
+    type: ForceFieldAbility
+    radius: 12
+    regen: 0
+    max: 0
     cooldown: 100
   }
   {
     type: ForceFieldAbility
-    radius: 10
-    regen: 10
-    max: 10
-    cooldown: 100
-  }
-  {
-    type: ForceFieldAbility
-    radius: 5
-    regen: 20
-    max: 20
+    radius: 7
+    regen: 0
+    max: 0
     cooldown: 50
   }
 ]
